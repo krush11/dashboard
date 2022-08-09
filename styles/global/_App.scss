@@ -1,0 +1,31 @@
+@import "Cards";
+
+body {
+	margin: 0;
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.btn:focus,
+.form-select:focus {
+	box-shadow: unset !important;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+	height: 100%;
+}
+
+a {
+	text-decoration: none !important;
+	color: #1c7ed6;
+	&:hover {
+		cursor: pointer;
+	}
+}

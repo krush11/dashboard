@@ -1,0 +1,25 @@
+.header {
+	height: 100%;
+}
+
+.logo {
+	.hamburger {
+		margin-right: 20px;
+	}
+
+	.productName {
+		margin-left: 8px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 26px;
+		letter-spacing: 0.5px;
+	}
+}
+
+.headerControls {
+	svg {
+		path {
+			fill: #757474;
+		}
+	}
+}

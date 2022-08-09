@@ -1,0 +1,35 @@
+.navSec {
+	ul {
+		padding: 0;
+		list-style: none;
+
+		li:hover {
+			border-radius: 8px;
+			background-color: aliceblue;
+		}
+	}
+
+	&.navSecMain {
+		.navSecHeading {
+			font-size: 12px;
+		}
+
+		ul {
+			margin: 6px 0 18px 0;
+
+			li {
+				padding: 8px 12px;
+			}
+		}
+	}
+
+	&.navSecFooter {
+		ul {
+			margin: 0;
+
+			li {
+				padding: 2px 6px;
+			}
+		}
+	}
+}
